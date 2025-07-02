@@ -1,81 +1,95 @@
-🏠 3D Room Visualization with Door, Window, and Fireplace
-This Python script uses Matplotlib to create a 3D visualization of a customizable room featuring a door, window, and fireplace. Users can input the room dimensions and instantly see a realistic rendering of the interior in a 3D space.
+# 🏠 3D Room Visualization with Python
 
-📸 Features
-Fully rendered 3D room with six walls (floor, ceiling, and four walls)
+This project creates a 3D representation of a room with a door, window, and fireplace using Python and Matplotlib.
 
-Interactive Matplotlib plot with camera rotation and zoom
+It was born out of a personal motivation to overcome the fear of learning Python by building something visual, practical, and conceptually simple.
 
-Customizable dimensions for:
+![Room Visualization](Figure_1.png)
 
-Room length, width, and height
+---
 
-Door position, size
+## 📌 Features
 
-Window position, size
+- 3D room generated based on user input dimensions
+- Door on the front wall
+- Window on the back wall
+- Fireplace on the right wall
+- Floor area automatically calculated and displayed
+- Clean and clear 3D plotting using Matplotlib
 
-Fireplace position, depth, and size
+---
 
-Annotated room area in square meters
+## 🚀 Getting Started
 
-Color-coded elements:
+### 📦 Requirements
 
-Light gray walls
+- Python 3.x
+- Matplotlib
+- NumPy
 
-Saddle brown door
-
-Sky blue window
-
-Dark red fireplace
-
-📦 Requirements
-Python 3.6+
-
-Matplotlib
-
-NumPy
-
-Install the dependencies with:
-
-```
-pip install matplotlib numpy
-```
-🚀 How to Run
-
-Enter your desired room dimensions when prompted:
-
-Length of wall 1 (X direction)
-
-Length of wall 2 (Y direction)
-
-Height of the ceiling (Z direction)
-
-🛠 Customization
-The following elements can be modified directly in the script:
-
-Door settings (width, height, offset from wall)
-
-Window settings (width, height, position from floor and side)
-
-Fireplace settings (depth, width, height, and Y-axis offset)
-
-These values are defined as variables near the middle of the script and can be adjusted to match specific designs or measurements.
-
-📷 Example Output
-https://github.com/Tsaqeal/3D-Room/blob/main/Figure_1.png
+### ▶️ How to Run
 
 
-💡 Inspiration
-This project was created as a visual aid and fun coding challenge using Python's 3D plotting capabilities. It's ideal for:
 
-Visualizing room layouts
+1. Install required packages (if needed):
+   ```bash
+   pip install matplotlib numpy
+   ```
 
-Educational demonstrations
+2. Run the script.
+  
 
-Interior design prototyping
+3. Enter your room dimensions when prompted.
 
-📝 License
-This project is licensed under the MIT License – feel free to use, modify, and share!
+---
+
+## 📷 Screenshot
+
+![3D Room](Figure_1.png)
+
+---
+
+## 👤 Author
+
+**Vasileios Tsakalos**  
+🔗 [LinkedIn](https://www.linkedin.com/in/vasileios-tsakalos/)  
+📁 [GitHub – Tsaqeal](https://github.com/Tsaqeal)
+
+---
+
+## 🚧 Possible Advancements
+
+Here are some ideas for how this project can be improved or expanded:
+
+### 🔄 Enhanced Customization
+- Allow **user input to select which wall** (1–4) the **door**, **window**, or **fireplace** appears on.
+- Support for **multiple doors or windows** with position, size, and orientation parameters.
+
+### 🪑 Add Interior Objects
+- Create **simple 3D objects** like:
+  - Tables
+  - Chairs
+  - Sofas
+  - Beds
+- Use classes to define objects and **assign them coordinates within the room**.
+- Support object placement logic (e.g. don't overlap walls or each other).
+
+### 🎨 Styling & Visualization
+- Add **textures or images** to walls/floor (e.g. tiles, wood, wallpaper).
+- Improve lighting effects and shading.
+- Enable **camera control** or interactive movement using more advanced tools (e.g. Plotly, Blender’s Python API).
+
+### 💾 Save & Export
+- Add ability to **export the room as an image or 3D file (e.g. STL or OBJ)**.
+- Option to **save/load room layout** from a file (JSON or YAML).
+
+### 🌐 Web Integration
+- Convert the tool into a **web app** using Flask or Streamlit for real-time input and rendering.
+- Allow people to customize and visualize rooms directly in the browser.
+
+---
+
+Feel free to fork, modify, and contribute!
 
 🙋‍♂️ Author
 https://github.com/Tsaqeal
