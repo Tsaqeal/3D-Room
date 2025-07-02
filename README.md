@@ -42,7 +42,6 @@ pip install matplotlib numpy
 ```
 🚀 How to Run
 
-
 Enter your desired room dimensions when prompted:
 
 Length of wall 1 (X direction)
