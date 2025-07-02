@@ -63,8 +63,7 @@ Fireplace settings (depth, width, height, and Y-axis offset)
 These values are defined as variables near the middle of the script and can be adjusted to match specific designs or measurements.
 
 📷 Example Output
-
-<sub>Add a screenshot of your output here to show the final rendering.</sub>
+https://github.com/Tsaqeal/3D-Room/blob/main/Figure_1.png
 
 
 💡 Inspiration
